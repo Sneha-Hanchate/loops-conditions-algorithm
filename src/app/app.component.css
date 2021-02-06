@@ -1,0 +1,39 @@
+li{
+  width: 98%;
+  padding: 7%;
+  border: 1px solid teal;
+list-style-type: none;
+margin-left: 1%;
+font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+
+
+}
+#li1{
+  width: 114%;
+  padding: 10%;
+  border: 1px solid teal;
+list-style-type: none;
+margin-left: 1%;
+font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+
+
+}
+
+h2{
+  color: teal;
+  padding: 3%;
+  font-family: 50px;
+  font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+}
+h3{
+  color: teal;
+  padding: 3%;
+  font-family: 50px;
+  font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+}

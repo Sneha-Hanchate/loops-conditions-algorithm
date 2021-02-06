@@ -1,0 +1,36 @@
+<!--<input type="text" [(ngModel)]="a" />-->
+<div  id="main">
+  <h1 id="heading">Do - While Algorithm</h1>
+  <div class="col-md-8 offset-md-3 col-12">
+  <h3><span><input type="text" [(ngModel)]="initial" placeholder="initial var" /></span> = <span>
+    <input type="number" [(ngModel)]="initialvalue" placeholder="enter value" /></span></h3>
+
+
+
+<h3>do {{bra}}</h3>
+<h3><input id="loop" type="text" [(ngModel)]="loop" placeholder="enter print "/></h3>
+   <h3> {{initial}} <select  [(ngModel)]="initialoper" >
+
+<option value="++">++</option>
+<option value="--">--</option>
+   </select></h3>
+
+    <h4> {{bra2}} while (  <span>
+    {{initial}} <select  [(ngModel)]="operator" >
+<option value="<">{{abc}}</option>
+<option value="<=">{{abc1}}</option>
+<option value=">">{{abc2}}</option>
+<option value=">=">{{abc3}}</option>
+   </select>
+    </span><span> <input type="number" [(ngModel)]="c2" /> </span>  {{cbra2}}  </h4>
+  </div><br/>
+  <div class="col-md-8 offset-md-2 col-10 offset-1 ">
+<button id="run" (click)="run()">Run</button><br/>
+
+  </div>
+  <div class="col-md-8 offset-md-2 col-10 offset-1 " id="output">
+
+  <h2>{{out}}</h2>
+  </div>
+
+</div>
